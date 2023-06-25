@@ -1,0 +1,28 @@
+{
+  "name": "demo-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrience/demo-cucumber.git"
+  },
+  "author": "mrience",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrience/demo-cucumber/issues"
+  },
+  "homepage": "https://github.com/mrience/demo-cucumber#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "selenium-webdriver": "^4.10.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.2.0",
+    "eslint": "^8.43.0",
+    "jsdoc": "^4.0.2"
+  }
+}
